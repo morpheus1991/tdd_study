@@ -8,8 +8,8 @@ const productModel = Product;
 
 productModel.create = jest.fn();
 
-let req: Request | undefined;
-let res: Response | undefined;
+let req: httpmocks.MockRequest<any> | undefined;
+let res: httpmocks.MockResponse<Response<any, Record<string, any>>> | undefined;
 let next: null | NextFunction;
 
 beforeEach(() => {
@@ -30,5 +30,10 @@ describe("Product Controller create ", () => {
   it("should call ProductModel.create", () => {
     productController.createProduct(req as Request, res as Response, next);
     expect(productModel.create).toBeCalledWith(newProduct);
+  });
+  it("should return 201 response code", () => {
+    productController.createProduct(req as Request, res as Response, next);
+    expect(res?.statusCode).toBe(201);
+    expect(res?._isEndCalled()).toBeTruthy();
   });
 });
