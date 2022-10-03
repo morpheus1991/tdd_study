@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1664811251930" clover="3.2.0">
-  <project timestamp="1664811251930" name="All files">
-    <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0" elements="5" coveredelements="2" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
-    <file name="products.ts" path="/Users/jominhyeog/Desktop/tdd/tdd_back_node/src/controller/products.ts">
-      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-    </file>
+<coverage generated="1664826378816" clover="3.2.0">
+  <project timestamp="1664826378816" name="All files">
+    <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="12" coveredelements="10" complexity="0" loc="10" ncloc="10" packages="2" files="2" classes="2"/>
+    <package name="controller">
+      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="products.ts" path="/Users/jominhyeog/Desktop/tdd/tdd_back_node/src/controller/products.ts">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="models">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Product.ts" path="/Users/jominhyeog/Desktop/tdd/tdd_back_node/src/models/Product.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
