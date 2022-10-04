@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1664842639014" clover="3.2.0">
-  <project timestamp="1664842639014" name="All files">
-    <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="12" coveredelements="10" complexity="0" loc="10" ncloc="10" packages="2" files="2" classes="2"/>
+<coverage generated="1664855828376" clover="3.2.0">
+  <project timestamp="1664855828376" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2" elements="16" coveredelements="16" complexity="0" loc="13" ncloc="13" packages="2" files="2" classes="2"/>
     <package name="controller">
-      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="products.ts" path="/Users/jominhyeog/Desktop/tdd/tdd_back_node/src/controller/products.ts">
-        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
     </package>
     <package name="models">
