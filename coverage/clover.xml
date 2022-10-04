@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1664828499821" clover="3.2.0">
-  <project timestamp="1664828499821" name="All files">
-    <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="13" coveredelements="11" complexity="0" loc="11" ncloc="11" packages="2" files="2" classes="2"/>
+<coverage generated="1664841408447" clover="3.2.0">
+  <project timestamp="1664841408447" name="All files">
+    <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="12" coveredelements="10" complexity="0" loc="10" ncloc="10" packages="2" files="2" classes="2"/>
     <package name="controller">
-      <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="products.ts" path="/Users/jominhyeog/Desktop/tdd/tdd_back_node/src/controller/products.ts">
-        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
     </package>
     <package name="models">

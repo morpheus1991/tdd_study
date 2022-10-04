@@ -7,8 +7,7 @@ export const hello = (req: Request, res: Response) => {
 
 export const productController = {
   createProduct: (req: Request, res: Response, next: NextFunction | null) => {
-    console.log(req.body);
-    Product.create(req.body);
-    res.status(201).send();
+    const createdProduct = Product.create(req.body);
+    res.status(201).json(createdProduct);
   },
 };
