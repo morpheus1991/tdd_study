@@ -13,7 +13,6 @@ mongoose
   .catch((err) => console.log(err));
 // Constants
 const PORT = 8080;
-const HOST = "0.0.0.0";
 
 // App
 const app = express();
@@ -24,4 +23,4 @@ app.use(express.json());
 //Router
 app.use("/api/products", productsRoute);
 
-app.listen(PORT, HOST);
+app.listen(PORT);

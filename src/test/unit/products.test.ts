@@ -43,12 +43,17 @@ describe("Product Controller create ", () => {
   it("should return 201 response code", () => {
     productController.createProduct(req as Request, res as Response, next);
     expect(res?.statusCode).toBe(201);
+    //결과값 전송 여부 체크 send 혹은 json 등 처리 해줘야 truthy함.
     expect(res?._isEndCalled()).toBeTruthy();
   });
   it("should return json body in response", () => {
     const f = productModel.create as jest.Mock;
+    //오버라이딩한 create 메소드의 리턴값은 newProduct임을 설정.
     f.mockReturnValue(newProduct);
+
     productController.createProduct(req as Request, res as Response, next);
+    //목 데이터를 넣고 실행한 결과 값을 파싱하면, newProduct와 같음.
+    //코드 흐름이 처음에 다소 혼란 스러웠음 몇번 더 보면서 익숙해져야함.
     expect(res?._getJSONData()).toStrictEqual(newProduct);
   });
 });
